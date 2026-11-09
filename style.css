@@ -568,9 +568,12 @@ fieldset{
     cursor: pointer;
 }
 
-@media(max-width: 768px){
+@media screen and(max-width: 768px){
     .container{
+        width: 100%;
         background-color: lightgreen;
+        padding: 0 15px;
+        
     }
 }
     
